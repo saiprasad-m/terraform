@@ -7,3 +7,7 @@ resource "aws_vpc" "mtc_vpc" {
       "Name" = "dev"
     }
 }
+
+resource "aws_subnet" "mtc_public_subnet" {
+  
+}
